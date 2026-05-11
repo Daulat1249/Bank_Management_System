@@ -11,7 +11,7 @@ public class Signup2 extends JFrame implements ActionListener {
     JRadioButton r1,r2,e1,e2;
     JButton next;
     String formno;
-    Signup2(String first){
+    Signup2(String formno){
         super("APPLICATION FORM: ");
 
 
@@ -156,13 +156,13 @@ public class Signup2 extends JFrame implements ActionListener {
         buttonGroup2.add(e1);
         buttonGroup2.add(e2);
 
-        JLabel l12 = new JLabel("Form No: ");
-        l12.setFont(new Font("Raleway", Font.BOLD, 18));
+        JLabel l12 = new JLabel("Form No:  ");
+        l12.setFont(new Font("Raleway", Font.BOLD, 14));
         l12.setBounds(700, 10, 100,30);
         add(l12);
 
         JLabel l13 = new JLabel(formno);
-        l13.setFont(new Font("Raleway", Font.BOLD, 18));
+        l13.setFont(new Font("Raleway", Font.BOLD, 14));
         l13.setBounds(760, 10, 60,30);
         add(l13);
 
